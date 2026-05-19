@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 18</title>
+    </head>
+    <body>
+        <center>
+            <h1><b>Ingrese los datos solicitados para armar su factura</b></h1><br>
+            <form action="Practica18.php" method="post">
+                Ingrese su nombre: <input type="text" name="nombre"><br><br>
+                Ingrese cual es su producto
+                <select name="producto" id="producto">
+                    <option value="nada"></option>
+                    <option value="Coca-cola">Coca-cola</option>
+                    <option value="Pepsi">Pepsi</option>
+                    <option value="Fanta">Fanta</option>
+                    <option value="Sprite">Sprite</option>
+                </select><br><br>
+                    Ingrese la cantidad unitaria de su producto <input type="number" name="cantidad"><br><br>
+                    Ingrese el precio unitario de su producto <input type="number" name="precio"><br><br>
+                <input type="submit" value="enviar">
+            </form>
+</html>
